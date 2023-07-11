@@ -38,7 +38,7 @@ body {
 
 .bnr-left-p {
     color: rgba(39, 39, 39, 0.60);
-    font-style: normal;
+    font-size: 14px;
     font-weight: 400;
     width: 450px;
     margin-bottom: 25px;
@@ -96,8 +96,8 @@ body {
     padding-bottom: 40px;
 }
 
-/* Instagram section */
-.insta {
+/*bonus section style (shared with insta)*/
+.bns, .insta {
     max-width: 1100px;
     margin-top: 100px;
     margin-left: auto;
@@ -106,13 +106,64 @@ body {
     align-items: center;
 }
 
-.ins-ttl {
+.bns-ttl, .ins-ttl {
     color: #272727;
     font-size: 25px;
     /*same as hot deal */
     font-weight: 800;
-    margin: 0;
+    margin: 0px;
 }
+
+#bns-p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    /*same as bnr2-p*/
+    font-weight: 400;
+    padding: 18px 275px 36px 275px;
+    margin: 0px;
+}
+
+.bns-img, .ins-img {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.bns-img-1 {
+    width: 170px;
+    height: 220px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 85px 60px 0px;
+    margin: 0px;
+}
+
+.bns-img-2 {
+    width: 170px;
+    height: 220px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 85px 60px 0px;
+    margin: none;
+}
+
+.bns-img-3 {
+    width: 170px;
+    height: 220px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 85px 60px 0px;
+    margin: none;
+}
+
+.cap {
+    color: #272727;
+    font-size: 16x;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+/* Instagram section */
 
 #ins-p {
     color: rgba(39, 39, 39, 0.60);
@@ -120,13 +171,7 @@ body {
     /*same as bnr2-p*/
     font-weight: 400;
     padding: 18px 275px 36px 275px;
-    margin: 0;
-}
-
-.ins-img {
-    display: flex;
-    gap: 24px;
-    justify-content: space-around;
+    margin: 0px;
 }
 
 .ins-img-s {
