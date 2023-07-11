@@ -85,7 +85,7 @@ body {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    width: 420px;
+    width: 450px;
     margin-bottom: 25px;
 }
 
@@ -214,7 +214,9 @@ body {
     height: 50px;
     border: none;
     padding-left: 22px;
+    border-radius: 8px;
     color: rgba(39, 39, 39, 0.60);
+    background: #FFF;
     font-weight: 400;
 }
 
