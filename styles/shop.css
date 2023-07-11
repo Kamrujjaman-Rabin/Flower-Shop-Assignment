@@ -82,7 +82,7 @@ body {
 
 .bnr2-left-p {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     width: 420px;
@@ -111,14 +111,16 @@ body {
     font-size: 25px;
     /*same as hot deal */
     font-weight: 800;
+    margin: 0;
 }
 
 #ins-p {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 12px;
+    font-size: 14px;
     /*same as bnr2-p*/
     font-weight: 400;
     padding: 18px 275px 36px 275px;
+    margin: 0;
 }
 
 .ins-img {
@@ -157,7 +159,7 @@ body {
 .dl-p {
     margin: none;
     color: rgba(39, 39, 39, 0.60);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     padding-bottom: 35px;
 }
@@ -181,4 +183,46 @@ body {
     font-weight: 700;
     border: none;
     margin-left: 10px;
+}
+
+/*footer section style */
+
+footer {
+    background: #111010;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ft-ttl {
+    color: #E55473;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.shop {
+    color: #FFFFFF;
+}
+
+.ft-p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0px 475px 25px;
+}
+
+.ft-c {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
