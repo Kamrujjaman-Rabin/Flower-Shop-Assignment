@@ -23,15 +23,15 @@ body {
     align-items: center;
 }
 
-.bnr-left{
+.bnr-left {
     padding-left: 100px;
 }
+
 .bnr-left-ttl {
     color: #272727;
-    font-family: Lato;
     font-size: 50px;
     font-weight: 800;
-    width:550px;
+    width: 550px;
     margin-bottom: 25px;
 }
 
@@ -51,7 +51,7 @@ body {
 
 /* banner 2 related style */
 
-.bnr2{
+.bnr2 {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -60,15 +60,20 @@ body {
     margin-top: 100px;
 }
 
-.bnr2-left{
+.bnr2-left {
     padding-left: 175px;
+}
+
+.bnr2-ttl{
+    padding-left: 10px;
 }
 
 .bnr2-left-ttl {
     color: #272727;
-    font-size: 25px; /*half of the bnr*/
+    font-size: 25px;
+    /*half of the bnr*/
     font-weight: 800;
-    width:400px;
+    width: 400px;
     margin-bottom: 18px;
 }
 
@@ -78,7 +83,7 @@ body {
 
 .bnr2-left-p {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 10px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     width: 420px;
@@ -90,4 +95,35 @@ body {
     padding-right: 175px;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+/* Instagram section */
+.insta {
+    max-width: 1100px;
+    margin: 100px auto auto auto;
+    text-align: center;
+}
+
+.ins-ttl {
+    color: #272727;
+    font-size: 25px;
+    /*same as hot deal */
+    font-weight: 800;
+}
+
+#ins-p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px; same as bnr2-p
+    font-weight: 400;
+    padding: 18px 275px 36px 275px;
+}
+
+.ins-img {
+    display: flex;
+}
+
+.ins-img-s {
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
 }
