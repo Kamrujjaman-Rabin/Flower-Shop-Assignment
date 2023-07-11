@@ -3,6 +3,15 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.btn-prm {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 15px 35px;
+}
+
 /* header related styles */
 .header {
     background: rgba(229, 84, 115, 0.10);
@@ -10,12 +19,12 @@ body {
 
 .bnr {
     display: flex;
-    gap: 97px;
+    gap: 80px;
     align-items: center;
 }
 
 .bnr-left{
-    padding-left: 100px; 
+    padding-left: 100px;
 }
 .bnr-left-ttl {
     color: #272727;
@@ -40,11 +49,45 @@ body {
     padding-top: 20px;
 }
 
-.btn-prm {
+/* banner 2 related style */
+
+.bnr2{
     border-radius: 8px;
-    background: #E55473;
-    border: 0;
-    color: #FFFFFF;
-    font-size: 15px;
-    padding: 15px 35px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.bnr2-left{
+    padding-left: 175px;
+}
+
+.bnr2-left-ttl {
+    color: #272727;
+    font-size: 25px; /*half of the bnr*/
+    font-weight: 800;
+    width:400px;
+    margin-bottom: 18px;
+}
+
+.off {
+    color: #E55473;
+}
+
+.bnr2-left-p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    width: 420px;
+    margin-bottom: 25px;
+}
+
+.bnr2-pic {
+    width: 250px;
+    padding-right: 175px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
